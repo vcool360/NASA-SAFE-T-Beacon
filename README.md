@@ -7,7 +7,7 @@ The Ataraxia team consists of Vatsal Modgil, Falak Fahim, Peyton Goodman, and Ga
 ## Background and Rationale
 The background of SAFE-T stems from NASA’s plan to return to the moon under the Artemis missions in 2024. With the Artemis program, NASA will establish a sustained presence on the Moon, opening more of the lunar surface to exploration than ever before. Currently, there is no adequate means of cislunar and lunar surface distress tracking coupled with a notification system, which will be a key element of safe exploration. Thus, the need for a mobile beacon arises. 
 
-The intention is for SAFE-T to serve this purpose, as well as be capable of attaching to the Gandalf Staff - another project under development by several other ETID Capstone teams. The Gandalf Staff will be utilized in the upcoming years as a handheld extra-vehicular activity tool capable of lighting and remote imaging, and Ataraxia providing an automated distress tracking and notification system for the staff will only benefit the safety of lunar surface users. 
+The intention is for SAFE-T to serve this purpose, as well as be capable of attaching to the Gandalf Staff - another project under development by several other EE x NASA Capstone teams. The Gandalf Staff will be utilized in the upcoming years as a handheld extra-vehicular activity tool capable of lighting and remote imaging, and Ataraxia providing an automated distress tracking and notification system for the staff will only benefit the safety of lunar surface users. 
 
 # Software contribution
 The digital logic controlling the operation of SAFE-T can logically be broken into two parts: one for the general operation of the system, and one for the traversing of the menu and interacting with the mechanical buttons.  
