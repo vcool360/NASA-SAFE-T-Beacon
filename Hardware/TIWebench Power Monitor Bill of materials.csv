@@ -1,0 +1,15 @@
+﻿Part,Manufacturer,Part Number,Quantity,Price ($),Footprint (mm²),Description
+Css,Kyocera AVX,0603ZC822KAT2A,1,NA,0.8,Cap: 8.2 nF  Total Derated Cap: 8.2 nF  VDC: 10 V  ESR: 1 mΩ  Package: 0201  
+Ccomp2,MuRata,GQM2195C2A1R0CB01D,1,0.17,6.75,Cap: 1 pF  Total Derated Cap: 1 pF  VDC: 100 V  ESR: 1 mΩ  Package: 0805  
+U1,Texas Instruments,TPS54233DR,1,0.569,56.58,
+Rfbb,Panasonic,ERJ-6ENF1961V,1,0.01,6.75,Resistance: 1.96 kΩ  Tolerance: 1.0%  Power: 125 mW  
+Cboot,Kemet,C0603C104Z4VACTU,1,0.01,4.68,Cap: 100 nF  Total Derated Cap: 42 nF  VDC: 16 V  ESR: 1 mΩ  Package: 0603  
+Cin,MuRata,GRM32ER61C226ME20L,1,0.55,14.7,Cap: 22 µF  Total Derated Cap: 19 µF  VDC: 16 V  ESR: 2 mΩ  Package: 1210  
+L1,Bourns,SRN8040-100M,1,0.27,100,L: 10 µH  DCR: 50 mΩ  IDC: 3.1 A  
+Rfbt,Panasonic,ERJ-8ENF1022V,1,0.01,10.92,Resistance: 10.2 kΩ  Tolerance: 1.0%  Power: 250 mW  
+Cout,TDK,C4532X5R1A476M280KA,2,0.47,23.1,Cap: 47 µF  Total Derated Cap: 72 µF  VDC: 10 V  ESR: 4.53 mΩ  Package: 1812  
+D1,Vishay-Semiconductor,SL02-GS08,1,NA,13.16,Type: Schottky  VRRM: 20 V  Io: 1.1 A  
+Ccomp,MuRata,GRM188R72A102KA01D,1,0.01,4.68,Cap: 1 nF  Total Derated Cap: 1 nF  VDC: 100 V  ESR: 1 mΩ  Package: 0603  
+Rcomp,Panasonic,ERJ-6ENF3242V,1,0.01,6.75,Resistance: 32.4 kΩ  Tolerance: 1.0%  Power: 125 mW  
+RenB,Panasonic,ERJ-6ENF6812V,1,0.01,6.75,Resistance: 68.1 kΩ  Tolerance: 1.0%  Power: 125 mW  
+RenT,Panasonic,ERJ-6ENF1693V,1,0.01,6.75,Resistance: 169 kΩ  Tolerance: 1.0%  Power: 125 mW  
