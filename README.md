@@ -9,6 +9,7 @@ The background of SAFE-T stems from NASA’s plan to return to the moon under th
 
 The intention is for SAFE-T to serve this purpose, as well as be capable of attaching to the Gandalf Staff - another project under development by several other ETID Capstone teams. The Gandalf Staff will be utilized in the upcoming years as a handheld extra-vehicular activity tool capable of lighting and remote imaging, and Ataraxia providing an automated distress tracking and notification system for the staff will only benefit the safety of lunar surface users. 
 
+# Software contribution
 The digital logic controlling the operation of SAFE-T can logically be broken into two parts: one for the general operation of the system, and one for the traversing of the menu and interacting with the mechanical buttons.  
 
 For the general operation logic, SAFE-T initializes its home screen display and will try to connect to all of the data-collecting peripherals (heart monitor, GPS, etc.).  Once successfully initialized, nominal (normal) mode is entered and a series of checks occur.
