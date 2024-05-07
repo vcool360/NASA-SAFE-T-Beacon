@@ -4,6 +4,11 @@ This project was developed by Ataraxia is the SAR (Search and Rescue) Assisting 
 
 The Ataraxia team consists of Vatsal Modgil, Falak Fahim, Peyton Goodman, and Gabrielle Quemada. Dr. Joseph Morgan was the faculty advisor overseeing the project, which was sponsored by Matt Leonard, the President of T STAR. The beacon prototype was designed at the request of NASA, to be further developed by the Lunar Search and Rescue program to be used by astronauts in 2024. 
 
+
+![alt text](https://i.imgur.com/3ooiA53.png)
+
+Figure 1. Flowchart - Main Operation
+
 ## Background and Rationale
 The background of SAFE-T stems from NASA’s plan to return to the moon under the Artemis missions in 2024. With the Artemis program, NASA will establish a sustained presence on the Moon, opening more of the lunar surface to exploration than ever before. Currently, there is no adequate means of cislunar and lunar surface distress tracking coupled with a notification system, which will be a key element of safe exploration. Thus, the need for a mobile beacon arises. 
 
@@ -20,11 +25,11 @@ As for emergency mode, SAFE-T will send ‘SOS’ messages at two specific time 
 
 During this time, the beacon will still continue to operate in a ‘nominal’ mode setting, however every communication it makes will have its ‘Message Priority’ message field set to indicate that emergency mode has been triggered.  According to Ataraxia’s customer, a method to disable emergency mode manually is not required for such an early-staged prototype. 
 
-Figure 1 summarizes the process described above.
+Figure 2 summarizes the process described above.
 
 ![alt text](https://i.imgur.com/LSIKQFe.png)
 
-Figure 1. Flowchart - Main Operation
+Figure 2. Flowchart - Main Operation
 
 The next portion of the digital logic behind SAFE-T’s operation is the logic behind sending messages by interacting with the onscreen menu of preformatted messages, as illustrated in Figure 12.  
 
@@ -33,12 +38,12 @@ The currently selected message on the screen is adjusted by the user pressing ei
 Once a message is highlighted/displayed on the screen, a check is made to determine if the ‘select’ button has been pressed.  If the ‘select’ button is pressed, SAFE-T will log any and all data it has access to and attempt to transmit a message over the 802.11n protocol to a nearby Gandalf Staff.  SAFE-T will only transmit messages if the ‘select’ button is pressed, allowing the user to freely navigate the menu of messages without accidentally sending an erroneous transmission.
 
 ![alt text](https://i.imgur.com/CKIALIX.png)
-Figure 2. Flowchart - Message Sending
+Figure 3. Flowchart - Message Sending
 
 As for the method of SAFE-T internally storing data, it will utilize its onboard microSD card as a file system for not only its OS, but also file I/O and memory.  The chosen method of logging data is with a (.csv) file.  The file contains a column header indicating various information fields for things such as whether or not emergency mode has been triggered, the time, the message itself, the heart rate, latitude, longitude, etc..  By analyzing these logs, entire treks, missions, and even ‘stories’ can be inferred from the gathered information, with the following figure as an example of a story.  In this scenario (ignoring the artificial heart rate values) an excavation/science crew member acknowledges receiving a message and agrees to stay where they are before attempting to begin their mining work in the lunar south pole region, but they soon send out an SOS message indicating an emergency.  From the message log, it is clear and easy to follow that the crew member indicated an emergency due to a suit issue (low pressure) and declared that they were ‘on the way’ (OTW) back to the lander in order to correct the issue.  The (.csv) file’s labels and order of data presentation are not finalized, but serve to depict what a fully developed data logging system might look like. (Despite not being finalized, the data collected was generated using currently existing code, with the heart rate, latitude, and longitude values being simulated).
 
 ![alt text](https://i.imgur.com/oJGOdyp.png)
-Figure 3. Example Data Log Analysis
+Figure 4. Example Data Log Analysis
 
 
 NOTE: The Figure above utilizes an old version of the message logs, but is more ‘user friendly’ and easier to understand than the official, final rendition.
