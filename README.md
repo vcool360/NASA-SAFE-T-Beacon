@@ -7,7 +7,7 @@ The Ataraxia team consists of Vatsal Modgil, Falak Fahim, Peyton Goodman, and Ga
 
 ![alt text](https://i.imgur.com/3ooiA53.png)
 
-Figure 1. Flowchart - Main Operation
+Figure 1. Finalized Prototype
 
 ## Background and Rationale
 The background of SAFE-T stems from NASA’s plan to return to the moon under the Artemis missions in 2024. With the Artemis program, NASA will establish a sustained presence on the Moon, opening more of the lunar surface to exploration than ever before. Currently, there is no adequate means of cislunar and lunar surface distress tracking coupled with a notification system, which will be a key element of safe exploration. Thus, the need for a mobile beacon arises. 
